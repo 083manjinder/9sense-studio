@@ -1,0 +1,10 @@
+export { default as work1 } from './work1.jpg';
+export { default as work2 } from './work2.jpg';
+export { default as work3 } from './work3.jpg';
+export { default as work4 } from './work4.jpg';
+export { default as work5 } from './work5.jpg';
+export { default as icon1 } from './icon1.png';
+export { default as icon2 } from './icon2.png';
+export { default as icon3 } from './icon3.png';
+export { default as icon4 } from './icon4.png';
+export { default as icon5 } from './icon5.png';

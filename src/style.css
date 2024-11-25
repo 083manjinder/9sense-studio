@@ -1,0 +1,367 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+html{
+  scroll-behavior: smooth;
+}
+.header{
+  display: flex;
+  align-items: center;
+  padding: 0px 50px;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #ffffff85;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  
+}
+
+#logo img {
+  width: 50px;
+  height: 60px;
+}
+.navbar{
+position: unset;
+  right: 150px;
+}
+.navbar ul li {
+  display: inline-block;
+  font-size: 20px;
+  padding: 0 15px;
+ }
+a{ text-decoration: none;
+  color: rgb(73, 73, 73);
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.emailbtn{
+  border: 2px solid rgb(73, 73, 73);
+ background-color: transparent;
+ padding: 3px 15px;
+ border-radius: 24px;
+ margin-left: 52px;
+}
+h1{
+  display: flex;
+  margin-top: 150px;
+  align-items: center;
+  flex-direction: column;
+  text-transform: uppercase;
+  font-size: 100px;
+}
+.navbar ul li a :hover{
+ background : linear-gradient(#35b874, #89c443);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.emailbtn:hover{
+ color: white;
+  background-color: rgb(73, 73, 73) ;
+}
+.animat{
+  background : linear-gradient(#35b874, #89c443);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size:180px;
+ font-weight: 800;
+ }
+.ocitem1::after {
+  content: 'developer';
+  animation: text 15s  0s infinite;
+}
+@keyframes text {
+  20%{
+    content: 'developer';
+    
+}
+  40%{
+    content: 'designer';
+    
+}
+  60%{
+    content: 'developer';
+   
+}
+  80%{
+    content: 'designer';
+    
+}
+  100%{
+    content: 'developer';
+}
+}
+.buttonview{
+  background-color: transparent;
+  color: rgb(73, 73, 73);
+  border-radius: 50px;
+  border: 2px solid rgb(73, 73, 73);
+  padding: 20px;
+  margin: 0 22px;
+font-weight: 700;
+    }
+    .buttonview:hover{
+      background-color: rgb(73, 73, 73);
+      color: white;
+    }
+    .gradiant2{
+      background : linear-gradient(#35b874, #89c443);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-weight: 900;
+      font-size: 90px;
+     }
+     .parallax{
+      
+    
+      /* Set a specific height */
+      min-height: 400px;
+    
+      /* Create the parallax scrolling effect */
+      
+      background-position: 50% 0;
+      background-repeat: no-repeat;
+      background-size: cover;
+      
+    }
+    .link{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    .link a{
+      padding-top: 50px;
+      color: whitesmoke;
+    }
+
+
+    .name{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 50px 0;
+      font-size: 40px;
+      margin: 25px 0;
+      font-weight: 700;
+    }
+   
+    .poster1 {
+      display: inline-block;
+      float: left;
+       width: 40%;
+       height:auto;
+     margin-left: 50px;
+      padding: 10px;
+    }
+    .poster2 {
+     display: inline-block;
+     float: left;
+       width: 40%;
+       height:auto;
+     margin-left: 50px;
+      padding: 10px;
+    }
+    .poster3 {
+     display: inline-block;
+     float: left;
+       width: 40%;
+       height:auto;
+     margin-left: 50px;
+      padding: 10px;
+      
+    }
+    .poster4 {
+     display: inline-block;
+     float: left;
+       width: 40%;
+       height:auto;
+     margin-left: 50px;
+      padding: 10px;
+    }
+    .poster5 {
+     display: inline-block;
+     float: left;
+       width: 40%;
+       height:auto;
+     margin-left: 50px;
+      padding: 10px;
+      
+    }
+    .head{
+      position: relative;
+     top: -569px;
+       left: 51px;
+     
+      
+    }
+    .head h2 {
+      font-size: 49px;
+      font-weight: 700;
+    }
+    .head2{
+     position: relative;
+     top: -569px;
+       left: 51px;
+      
+    }
+    .head2 h2 {
+     font-size: 49px;
+      font-weight: 700;
+    }
+    .head3{
+     position: relative;
+     top: -569px;
+       left: 51px;
+       
+    }
+    .head3 h2 {
+     font-size: 49px;
+      font-weight: 700;
+    }
+    .head4{
+     position: relative;
+     top: -569px;
+       left: 51px;
+      
+    }
+    .head4 h2 {
+     font-size: 49px;
+      font-weight: 700;
+    }
+    .head4{
+     position: relative;
+     top: -569px;
+       left: 51px;
+       
+    }
+    .head4 h2 {
+     font-size: 49px;
+      font-weight: 700;
+    }
+    .poster1 img:hover{
+      cursor: pointer;
+      transform: scale(1.1);
+     transition: all ease .3s;
+     
+   }
+    .poster2 img:hover{
+      cursor: pointer;
+      transform: scale(1.1);
+     transition: all ease .3s;
+     
+   }
+    .poster3 img:hover{
+      cursor: pointer;
+      transform: scale(1.1);
+     transition: all ease .3s;
+     
+   }
+    .poster4 img:hover{
+      cursor: pointer;
+      transform: scale(1.1);
+     transition: all ease .3s;
+     
+   }
+    .poster5 img:hover{
+      cursor: pointer;
+      transform: scale(1.1);
+     transition: all ease .3s;
+     
+   }
+   .clear{
+    clear: both;
+      display: block;
+  }
+  .headline{
+    display: flex;
+     align-items: flex-start;
+      flex-direction: column;
+      margin-left: 154px;
+      width: 427px;
+      padding: 20px;
+  }
+  .headline h2{
+    font-size: 34px;
+    font-weight: 700;
+  }
+  .icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .icon1{
+    width: 24%;
+      display: inline-block;
+      background-color: #E2E8D8;
+      margin: 15px 20px;
+      border-radius: 20px;
+      padding: 10px 18px;
+      padding-top: 79px;
+  }
+  .icon2{
+    width: 24%;
+      display: inline-block;
+      background-color: #C2DFEC;
+      margin: 15px 20px;
+      border-radius: 20px;
+      padding: 10px 18px;
+      padding-top: 79px;
+     
+  }
+  .icon2 h2 {
+    font-size: 29px;
+    padding-top: 3px;
+  }
+  .icon3{
+    width: 24%;
+      display: inline-block;
+      background-color: #C9D6CF;
+      margin: 15px 20px;
+      border-radius: 20px;
+      padding: 10px 18px;
+      padding-top: 79px;
+  }
+  .icon4{
+    width: 24%;
+      display: inline-block;
+      background-color: #E5E3CE;
+      margin: 15px 20px;
+      border-radius: 20px;
+      padding: 10px 18px;
+      padding-top: 79px;
+  }
+  .foter{
+    background-color: #C9D6CF;
+    width: 100%;
+    height: auto;
+  
+  }
+  .footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 46px 0;
+    
+  }
+  .formstart{
+    display: flex;
+    flex-direction: column;
+  }
+  .btn{
+    background-color: transparent; border: 2px solid rgb(61, 61, 61); border-radius: 30px;outline: none;width: 85px;
+  }
+.btn:hover{
+  background-color: rgb(61, 61, 61);
+ color: white;
+}
+.arr{
+  font-size: 25px;
+}
+.form1{
+  width: 40%;
+}
+.topic{width: 40%;}
+
+  

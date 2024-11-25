@@ -1,0 +1,361 @@
+@media screen and (max-width: 1300px) {
+  .animat{ font-size: 110px;
+  }
+}
+@media screen and (max-width: 920px) {
+ .header{  display: flex;
+  align-items: center;
+ margin: 0px 0px;
+ flex-direction: column;
+}
+}
+@media screen and (max-width: 824px) {
+ .emailbtn{
+   margin-left: 10px;
+ }
+ .navbar ul {
+   padding-left: 0;
+ }
+ .animat{ font-size: 70px;
+  }
+  .navbar {
+    position: relative;
+    right: 4px;
+  }
+  .navbar ul li {
+    font-size: 18px;
+    padding: 0 5px;
+  }
+  h4{
+    color: white;
+  }
+}
+@media screen and (max-width: 599px) {
+.navbar {
+    position: relative;
+    right: 1px;
+  }
+  .navbar ul li {
+    font-size: 18px;
+    padding: 0 2px;
+  }
+  .animat{ font-size: 50px;
+  }
+  .emailbtn{
+   margin-left: 1px;
+ }
+}
+@media screen and (max-width: 429px) {
+
+.navbar ul li {
+    font-size: 15px;
+    padding: 0 1px;
+  }
+}
+/* header end */
+/* section start */
+@media screen and (max-width: 488px) {
+  .buttonview {
+       display: block;
+      font-size: 20px;
+      font-weight: 700;
+      margin-bottom: 20px;
+       }
+       .downbutn{
+         font-size: 20px;
+       }
+
+}
+@media screen and (max-width: 599px) {
+  .navbar {
+      position: relative;
+      right: 1px;
+    }
+    .navbar ul li {
+      font-size: 10px;
+      padding: 0 1px;
+    }
+    .animat{ font-size: 45px;
+    }
+    .text2{
+      color: white;
+     
+    }
+   
+  }
+  @media screen and (max-width: 1129px){
+  
+    .poster{display: flex;
+     align-items: center;
+       flex-direction: column;
+     }
+     .poster1{
+       width: 50%;
+     }
+     .poster2{
+       width: 50%;
+     }
+     .poster3{
+       width: 50%;
+     }
+     .poster4{
+       width: 50%;
+     }
+     .poster5{
+       width: 50%;
+     }
+     .footer{
+       display: flex;
+       flex-direction: column;
+       justify-content: space-evenly;
+       padding: 46px 0;
+       align-items: center;
+     }
+     .form1{
+       padding-top: 60px;
+     }
+   }
+   @media screen and (max-width: 948px){
+     
+    .poster{display: flex;
+     align-items: center;
+       flex-direction: column;
+     }
+     .poster1{
+       width: 50%;
+     }
+     .poster2{
+       width: 50%;
+     }
+     .poster3{
+       width: 50%;
+     }
+     .poster4{
+       width: 50%;
+     }
+     .poster5{
+       width: 50%;
+     }
+   }
+   @media screen and (max-width: 875px){
+     
+    .poster{display: flex;
+     align-items: flex-start;
+       flex-direction: column;
+     }
+   }
+   @media screen and (max-width: 722px){
+     
+    .poster{display: flex;
+     align-items: flex-start;
+       flex-direction: column;
+     }
+     .headline{
+       margin-left: 108px;
+     }
+     .icon{
+       display: flex;
+       flex-direction: column;
+       flex-wrap: wrap;
+       align-content: space-around;
+     }
+     .icon1 {
+       width: 54%;
+     }
+     .icon2 {
+       width: 54%;
+     }
+     .icon3 {
+       width: 54%;
+     }
+     .icon4 {
+       width: 54%;
+     }
+   }
+   @media screen and (max-width: 590px){
+     .poster img{
+       width: 173%;
+       height: auto;
+     }
+     .poster .head {
+       top: -531px;
+     }
+     .poster .head1 {
+       top: -531px;
+     }
+     .poster .head2 {
+       top: -531px;
+     }
+     .poster .head3 {
+       top: -531px;
+     }
+     .poster .head4 {
+       top: -531px;
+     }
+   }
+   @media screen and (max-width: 550px){
+     .poster img{
+       width: 173%;
+       height: auto;
+     }
+     .headline{
+       margin-left: 62px;
+       width: 280px;
+     }
+     .topic a u{
+       font-size: 19px;
+     }
+     
+     .icon{
+       display: flex;
+       flex-direction: column;
+       flex-wrap: wrap;
+       align-content: space-around;
+     }
+     .icon1 {
+       width: 88%;
+     }
+     .icon2 {
+       width: 88%;
+     }
+     .icon3 {
+       width: 88%;
+     }
+     .icon4 {
+       width: 88%;
+     }
+     .poster .head {
+       top: -471px;
+     }
+     .poster .head1 {
+       top: -471px;
+     }
+     .poster .head2 {
+       top: -471px;
+     }
+     .poster .head3 {
+       top: -471px;
+     }
+     .poster .head4 {
+       top: -471px;
+     }
+   }
+   @media screen and (max-width: 490px){
+     .poster img{
+       width: 173%;
+       height: auto;
+     }
+     .poster .head {
+       top: -440px;
+     }
+     .head h2{
+       font-size: 27px;
+     }
+     .head1 h2{
+       font-size: 27px;
+     }
+     .head2 h2{
+       font-size: 27px;
+     }
+     .head3 h2{
+       font-size: 27px;
+     }
+     .head4 h2{
+       font-size: 27px;
+     }
+     .head5 h2{
+       font-size: 27px;
+     }
+     
+     .poster .head {
+       top: -335px;
+     }
+     .poster .head1 {
+       top: -335px;
+     }
+     .poster .head2 {
+       top: -335px;
+     }
+     .poster .head3 {
+       top: -335px;
+     }
+     .poster .head4 {
+       top: -335px;
+     }
+     .form1{
+       width: 55%;
+     }
+   }
+   @media screen and (max-width: 385px){
+     .poster img{
+       width: 187%;
+       height: auto;
+     }
+     .topic{width: 70%;}
+     .headline{
+       margin-left: 37px;
+       width: 190px;
+     }
+     .form1{
+       width: 55%;
+     }
+     
+    .poster1{
+        margin-left: 17px;
+    }
+    .poster2{
+        margin-left: 17px;
+    }
+    .poster3{
+        margin-left: 17px;
+    }
+    .poster4{
+        margin-left: 17px;
+    }
+    .poster5{
+      margin-left: 17px;
+    }
+   }
+   @media screen and (max-width: 320px){
+     
+     .topic{width: 88%;}
+     
+     .form1{
+       width: 75%;
+     }
+     .poster .head {
+       top: -278px;
+       left: 33px;
+     }
+     .poster .head1 {
+       top: -278px;
+       left: 33px;
+     }
+     .poster .head2 {
+       top: -278px;
+       left: 33px;
+     }
+     .poster .head3 {
+       top: -278px;
+       left: 33px;
+     }
+     .poster .head4 {
+       top: -278px;
+       left: 33px;
+     }
+    .poster1{
+        margin-left: 5px;
+    }
+    .poster2{
+        margin-left: 5px;
+    }
+    .poster3{
+        margin-left: 5px;
+    }
+    .poster4{
+        margin-left: 5px;
+    }
+    .poster5{
+      margin-left: 5px;
+    }
+   }
